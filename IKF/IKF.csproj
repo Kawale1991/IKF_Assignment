@@ -104,20 +104,22 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="IKFCRUD.aspx" />
+    <Content Include="IKFWEB\IKFCRUD.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BAIKF\BOIKF.cs" />
+    <Compile Include="DAIKF\DOIKF.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="IKFCRUD.aspx.cs">
+    <Compile Include="IKFWEB\IKFCRUD.aspx.cs">
       <DependentUpon>IKFCRUD.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="IKFCRUD.aspx.designer.cs">
+    <Compile Include="IKFWEB\IKFCRUD.aspx.designer.cs">
       <DependentUpon>IKFCRUD.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

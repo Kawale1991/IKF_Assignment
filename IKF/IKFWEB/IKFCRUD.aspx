@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IKFCRUD.aspx.cs" Inherits="IKF.IKFCRUD" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IKFCRUD.aspx.cs" Inherits="IKF.IKFWEB.IKFCRUD" %>
 
 <!DOCTYPE html>
 
